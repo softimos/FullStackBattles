@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  
+  <PropertyGroup>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <DocumentationMarkdown>$(MSBuildProjectDirectory)\README.md</DocumentationMarkdown>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0" />
+    <PackageReference Include="Vsxmd" Version="1.4.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Softimos.FullStackBattles.DAL\Softimos.FullStackBattles.DAL.csproj" />
+    <ProjectReference Include="..\Softimos.FullStackBattles.Database\Softimos.FullStackBattles.Database.csproj" />
+    <ProjectReference Include="..\Softimos.FullStackBattles.DTO\Softimos.FullStackBattles.DTO.csproj" />
+  </ItemGroup>
+
+
+</Project>

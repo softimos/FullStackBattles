@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Battlecruiser",
+    "crewCount": 6636
+  },
+  {
+    "name": "Dropship",
+    "crewCount": 144
+  },
+  {
+    "name": "Valkyrie",
+    "crewCount": 3352
+  },
+  {
+    "name": "Wraith",
+    "crewCount": 35
+  },
+  {
+    "name": "Science Vessel",
+    "crewCount": 421
+  },
+  {
+    "name": "Shuttle",
+    "crewCount": 5
+  },
+  {
+    "name": "Corsair",
+    "crewCount": 33
+  },
+  {
+    "name": "Arbiter",
+    "crewCount": 75
+  },
+  {
+    "name": "Carrier",
+    "crewCount": 1600
+  },
+  {
+    "name": "Scout",
+    "crewCount": 90
+  },
+  {
+    "name": "Observer",
+    "crewCount": 5
+  }
+]
